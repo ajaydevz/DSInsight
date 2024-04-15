@@ -7,3 +7,4 @@ for i in words:
         results[j] = results.get(j,0)+1
 
 print(results)
+
