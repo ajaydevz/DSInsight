@@ -4,8 +4,6 @@ def fibinocci():
         yield a
         a,b = b,a+b
         
-gen_fib = fibinocci()
+gen_fib = fbinocci()
 
-for i in range(25):
-    print(next(gen_fib))
     
