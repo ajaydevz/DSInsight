@@ -24,4 +24,4 @@ class BST:
             return search(root.left, data)
         else:
             return search(root.right, data)
-        
+            
