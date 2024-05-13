@@ -27,5 +27,10 @@ for v in my_dict.values():
 for k,v in my_dict.items():
     print(k,v)
 
+my_dict = {'apple': 3, 'banana': 2, 'cherry': 5, 'date': 1}
 
+sorted_dict = sorted(my_dict.items(), key=lambda item:item[1])
+print(dict(sorted_dict))
 
+key_sort = dict(sorted(my_dict.items()))
+print(key_sort)
