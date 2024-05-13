@@ -34,3 +34,10 @@ print(dict(sorted_dict))
 
 key_sort = dict(sorted(my_dict.items()))
 print(key_sort)
+
+
+# Remove a key from a dictionary without using the del keyword.
+
+my_dict = {'apple': 1, 'banana': 2, 'cherry': 3}
+my_dict.pop('banana')
+print(my_dict)
