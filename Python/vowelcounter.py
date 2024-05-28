@@ -22,5 +22,15 @@ data = [
     {'numbers': [7, 8, 9]}
 ]
 
+
+print(type(data))
+
+for i in data:
+    for k,v in i.items():
+        print(type(i))
+        print(type(k))
+        print(type(v))
+        print(k,':',v)
+
 results = sum(sum(obj['numbers']) for obj in data)
 print(results)
